@@ -203,14 +203,12 @@ ranking area
 
 .ranking001-area--in {
     padding: 5% 7%;
-    overflow: hidden;
 }
 
-
-}
 .ranking001-area--in>img {
     width: 100%;
 }
+
 .ranking001-area--in::before {
     position: absolute;
     width: 288px;
@@ -225,17 +223,21 @@ ranking area
     background: url("../assets/icons/speech-bubble001.svg") no-repeat center center/contain;
     z-index: 10;
 }
+
 .ranking001-area--in>table {
     width: 86%;
     border-collapse: collapse;
     margin: 50px auto 40px;
 }
+
 .ranking001-area--in>table tr {
     border-bottom: solid 2px white;
 }
+
 .ranking001-area--in>table tr:last-child {
     border-bottom: none;
 }
+
 .ranking001-area--in>table th {
     font-size: 26px;
     position: relative;
@@ -246,6 +248,7 @@ ranking area
     text-align: center;
     padding: 10px 0;
 }
+
 .ranking001-area--in>table th:after {
     display: block;
     content: "";
@@ -258,6 +261,7 @@ ranking area
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
+
 .ranking001-area--in>table td {
     width: 70%;
     text-align: left;
@@ -270,7 +274,9 @@ ranking area
     text-shadow: 2px 1px 3px #1e1b38;
 }
 
+
 /* ----------------RANK */
+
 .ranking001-area--in>table tr:nth-child(2) td:nth-child(2)::after {
     position: absolute;
     text-shadow: none;
@@ -281,6 +287,7 @@ ranking area
     content: "(5.0)";
     right: 200px;
 }
+
 .ranking001-area--in>table tr:nth-child(3) td:nth-child(2)::after {
     position: absolute;
     text-shadow: none;
@@ -291,6 +298,7 @@ ranking area
     content: "(5.2)";
     right: 200px;
 }
+
 .ranking001-area--in>table tr:nth-child(4) td:nth-child(2)::after {
     position: absolute;
     text-shadow: none;
@@ -301,6 +309,7 @@ ranking area
     content: "(4.2)";
     right: 200px;
 }
+
 .ranking001-area--in>table tr:nth-child(5) td:nth-child(2)::after {
     position: absolute;
     text-shadow: none;
@@ -311,6 +320,7 @@ ranking area
     content: "(5.6)";
     right: 200px;
 }
+
 .ranking001-area--in>table td>small {
     width: 10%;
     font-size: 20px;
@@ -319,6 +329,7 @@ ranking area
     color: #222222;
     text-shadow: none;
 }
+
 .ranking001-area--in>table td:nth-child(1) {
     font-weight: bold;
     width: 70%;
@@ -326,6 +337,7 @@ ranking area
     background-color: rgb(191 217 255);
     padding: 10px 0;
 }
+
 .ranking001-area--in .sub-contena {
     width: 100%;
     border: double 10px rgb(160, 191, 248);
@@ -333,6 +345,7 @@ ranking area
     padding: 5%;
     line-height: 1.7;
 }
+
 .ranking001-area--in .sub-contena span {
     background-image: -webkit-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
     background-image: -moz-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
@@ -344,7 +357,9 @@ ranking area
     background-position: 0 .9em;
 }
 
+
 /* --------------Title */
+
 .ranking-title__001 {
     font-size: 50px;
     line-height: 1.2;
@@ -355,11 +370,13 @@ ranking area
     text-shadow: 3px 2px #545454;
     transform: translateY(-21px);
 }
+
 .ranking-title__001>a {
     color: black;
     text-shadow: none;
     text-decoration: underline solid yellow;
 }
+
 .ranking-title__001>a::after {
     position: absolute;
     top: 0;
@@ -371,11 +388,13 @@ ranking area
     background-position: center;
     background: url("../assets/icons/no1.svg") no-repeat center center/contain;
 }
+
 .ranking-title__001>a::after {
     left: 15px;
     width: 100px;
     height: 80px;
 }
+
 .ranking001-area--in ul li span {
     background-image: -webkit-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
     background-image: -moz-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
@@ -386,12 +405,14 @@ ranking area
     background-size: 200% .4em;
     background-position: 0 .9em;
 }
+
 .ranking001-area--in ul {
     position: relative;
     left: 300px;
     margin: 50px auto;
     font-size: 25px;
 }
+
 .ranking001-area--in ul li:nth-child(1):before {
     position: absolute;
     top: -71px;
@@ -405,6 +426,7 @@ ranking area
     background-position: center;
     background: url(../assets/icons/check.svg) no-repeat center center/contain;
 }
+
 .ranking001-area--in ul li:nth-child(2):before {
     position: absolute;
     top: 0px;
@@ -418,6 +440,7 @@ ranking area
     background-position: center;
     background: url(../assets/icons/check.svg) no-repeat center center/contain;
 }
+
 .ranking001-area--in ul li:nth-child(3):before {
     position: absolute;
     top: 70px;
@@ -432,15 +455,19 @@ ranking area
     background: url(../assets/icons/check.svg) no-repeat center center/contain;
 }
 
+
 /* ------------------
 about area 
 ---------------------*/
+
 .about-area {
     max-width: 1160px;
     margin: 50px auto 0;
 }
 
+
 /* --------------Title */
+
 .about-title__001 {
     font-size: 22px;
     text-align: center;
@@ -448,6 +475,7 @@ about area
     color: #f52727;
     font-weight: bold;
 }
+
 .about-title__002 {
     font-size: 22px;
     text-align: center;
@@ -455,20 +483,25 @@ about area
     font-weight: bold;
     padding: 40px 0;
 }
+
 .about-area__contena001 {
     height: 60px;
     background: url("../assets/image/bg/dots.png") repeat center center rgb(165 206 148);
 }
+
 .about-area__contena001--in {
     background: cornsilk;
 }
+
 .about-img {
     text-align: center;
 }
+
 .about-area__contena001--in>p {
     font-size: 18px;
     padding: 2% 10%;
 }
+
 .about-area__contena001--in>p>span {
     background-image: -webkit-linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
     background-image: -moz-linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
@@ -481,26 +514,32 @@ about area
     transition: all 3s ease;
     font-weight: bold;
 }
+
 .about-area__contena001--in>div.about- img {
     width: 80%;
     max-width: 1160px;
     margin: 0 auto;
 }
+
 .about-area__contena001--in>div>img {
     width: 80%;
     padding-bottom: 2%;
 }
+
 .about-area__contena001--in>table {
     width: 80%;
     border-collapse: collapse;
     margin: 50px auto 40px;
 }
+
 .about-area__contena001--in>table tr {
     border-bottom: solid 2px white;
 }
+
 .about-area__contena001--in>table tr:last-child {
     border-bottom: none;
 }
+
 .about-area__contena001--in>table th {
     position: relative;
     text-align: left;
@@ -510,6 +549,7 @@ about area
     text-align: center;
     padding: 10px 0;
 }
+
 .about-area__contena001--in>table th:after {
     display: block;
     content: "";
@@ -522,12 +562,14 @@ about area
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
+
 .about-area__contena001--in>table td {
     width: 70%;
     text-align: center;
     background-color: #eee;
     padding: 10px 0;
 }
+
 .about-area__contena001--in>table td:nth-child(1) {
     font-weight: bold;
     width: 70%;
@@ -536,53 +578,54 @@ about area
     padding: 10px 0;
 }
 
+
 /*  --------------------------------
 
 Responsive.ver2021
 
 ---------------------------------- */
 
+
 /* ipad pro */
+
 @media screen and (min-width:1023px) and (max-width:1223px) {}
 
+
 /* ipad */
+
 @media screen and (min-width:768px) and (max-width:1023px) {}
 
+
 /* スマホ */
+
 @media screen and (max-width:480px) {
     .sp_only {
         display: block;
     }
     /* Hero-------------area */
-    
     .hero-area>.bg480 {
         height: 280px;
     }
-    
     .hero-area {
         max-width: 320px;
         padding-top: 20px;
     }
-    
     .hero-title001>h1 {
         font-size: 26px;
         line-height: 4;
         padding-left: 30px;
         /* transform: translate(20px, -2px); */
     }
-    
     .hero-title001 small {
         font-size: 15px;
         line-height: 5;
         margin: 0;
     }
-    
     .hero-title002>h1 {
         font-size: 20px;
         line-height: 2.5;
         margin-top: 5px;
     }
-    
     .hero-title002 small {
         color: white;
         font-size: 20px;
@@ -590,87 +633,70 @@ Responsive.ver2021
         text-shadow: 3px 2px #545454;
         margin: -10px;
     }
-    
     .hero-title002 span:nth-child(1) {
         font-size: 26px;
     }
-    
     .hero-title002 span:nth-child(2) {
         font-size: 20px;
     }
     /* How-------------area */
-    
     .how-title__001 {
         font-size: 23px;
         transform: translateY(17px);
     }
-    
     .how-area__contena001 {
         height: 95px;
         background: url("../assets/image/bg/bg-title__sp.png") no-repeat center center/contain;
         margin: -35px auto 4px;
     }
-    
     .how-area__contena001--in>p {
         font-size: 16px;
         padding: 10% 10% 3%;
     }
-    
     .how-area__contena001--in>p>small {
         font-size: 11px;
         color: #676767;
     }
-    
     .how-area__contena001--in>div>img {
         padding-top: 10%;
     }
-    
     .how-area .sub-evocation {
         font-size: 14px;
     }
-    
     .how-area>.time-contena {
         font-size: 14px;
     }
     /* Ranking---------------area */
-    
     .ranking001-area {
         margin: 30px auto 0;
         padding-top: 20px;
     }
-    
     .ranking001-area>hr {
         height: 2px;
         margin: -20px auto 0;
     }
-    
     .ranking-title__001 {
         text-align: left;
         padding-left: 78px;
     }
-    
     .ranking-title__001>a {
         font-size: 24px;
         line-height: 2;
     }
-    
     .ranking-title__001>a::after {
         left: 15px;
         top: 10px;
         width: 50px;
         height: 50px;
     }
-    
     .ranking001-area--in::before {
         width: 110px;
         right: 5px;
         top: -835px;
     }
-    
     .ranking001-area--in>table {
         width: 100%;
     }
-    
     .ranking001-area--in>table th {
         font-size: 18px;
         position: relative;
@@ -681,7 +707,6 @@ Responsive.ver2021
         text-align: center;
         padding: 10px 0;
     }
-    
     .ranking001-area--in>table td {
         padding: 10px 0 0 10px;
         color: #ffe10c;
@@ -690,11 +715,9 @@ Responsive.ver2021
         font-size: 16px;
         text-shadow: 2px 1px 3px #1e1b38;
     }
-    
     .ranking001-area--in>table td:nth-child(1) {
         letter-spacing: 3px;
     }
-    
     .ranking001-area--in>table tr:nth-child(2) td:nth-child(2)::after,
     .ranking001-area--in>table tr:nth-child(3) td:nth-child(2)::after,
     .ranking001-area--in>table tr:nth-child(4) td:nth-child(2)::after,
@@ -706,20 +729,17 @@ Responsive.ver2021
         font-size: 12px;
         right: 27px;
     }
-    
     .ranking001-area--in .sub-contena {
         font-size: 13px;
     }
-    
     .ranking001-area--in ul {
         position: relative;
         left: 23px;
         margin: 36px auto 10px;
         font-size: 13px;
         line-height: 2;
-        overflow: hidden;
+        width: 260px;
     }
-    
     .ranking001-area--in ul li:nth-child(1):before {
         position: absolute;
         top: -60px;
@@ -733,7 +753,6 @@ Responsive.ver2021
         background-position: center;
         background: url(../assets/icons/check.svg) no-repeat center center/contain;
     }
-    
     .ranking001-area--in ul li:nth-child(2):before {
         position: absolute;
         top: -10px;
@@ -747,7 +766,6 @@ Responsive.ver2021
         background-position: center;
         background: url(../assets/icons/check.svg) no-repeat center center/contain;
     }
-    
     .ranking001-area--in ul li:nth-child(3):before {
         position: absolute;
         top: 40px;
@@ -762,38 +780,41 @@ Responsive.ver2021
         background: url(../assets/icons/check.svg) no-repeat center center/contain;
     }
     /* About-------------area */
-    
     .about-area {
         margin: 14px auto 0;
     }
-    
     .about-area__contena001--in>p {
         font-size: 16px;
     }
-    
     .about-area__contena001--in>table {
         width: 94%;
     }
-    
     .section-one,
     .section-two {
         padding: 30px 0 50px;
     }
-    
     .section-one .section-one__title,
     .section-two .section-two__title {
         font-size: 26px;
     }
 }
 
+
 /* Iphone 6/7/8 Plus (414×##)*/
+
 @media screen and (min-width:414px) and (max-width:479px) {}
 
+
 /* Iphone 6/7/8 X (375×##)*/
+
 @media screen and (min-width:375px) and (max-width:413px) {}
 
+
 /* Galaxy S5 (360×##) */
+
 @media screen and (min-width:321px) and (max-width:374px) {}
 
+
 /* Iphone 5/SE (320×##)*/
+
 @media screen and (max-width:320px) {}
