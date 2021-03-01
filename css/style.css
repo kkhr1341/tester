@@ -333,6 +333,7 @@ ranking area
     text-align: center;
     background-color: rgb(191 217 255);
     padding: 10px 0;
+    color: aliceblue;
 }
 
 .ranking001-area--in .sub-contena {
@@ -608,10 +609,9 @@ Responsive.ver2021
         padding-top: 20px;
     }
     .hero-title001>h1 {
-        font-size: 26px;
-        line-height: 4;
+        font-size: 32px;
+        line-height: 3;
         padding-left: 30px;
-        /* transform: translate(20px, -2px); */
     }
     .hero-title001 small {
         font-size: 15px;
@@ -619,8 +619,8 @@ Responsive.ver2021
         margin: 0;
     }
     .hero-title002>h1 {
-        font-size: 20px;
-        line-height: 2.5;
+        font-size: 26px;
+        line-height: 2.0;
         margin-top: 5px;
     }
     .hero-title002 small {
@@ -638,8 +638,8 @@ Responsive.ver2021
     }
     /* How-------------area */
     .how-title__001 {
-        font-size: 23px;
-        transform: translateY(17px);
+        font-size: 27px;
+        transform: translateY(12px);
     }
     .how-area__contena001 {
         height: 95px;
@@ -647,7 +647,7 @@ Responsive.ver2021
         margin: -35px auto 4px;
     }
     .how-area__contena001--in>p {
-        font-size: 16px;
+        font-size: 17px;
         padding: 10% 10% 3%;
     }
     .how-area__contena001--in>p>small {
@@ -727,7 +727,7 @@ Responsive.ver2021
         color: #222222;
         line-height: 2.3;
         font-size: 12px;
-        right: 27px;
+        right: 42px;
     }
     .ranking001-area--in .sub-contena {
         font-size: 13px;
@@ -817,4 +817,29 @@ Responsive.ver2021
 
 /* Iphone 5/SE (320×##)*/
 
-@media screen and (max-width:320px) {}
+@media screen and (max-width:320px) {
+    .how-title__001 {
+        font-size: 23px;
+        transform: translateY(17px);
+    }
+    .hero-title001>h1 {
+        font-size: 26px;
+        line-height: 4;
+        padding-left: 30px;
+    }
+    .hero-title002>h1 {
+        font-size: 20px;
+        line-height: 2.5;
+        margin-top: 5px;
+    }
+    .how-area__contena001--in>p {
+        font-size: 16px;
+        padding: 10% 10% 3%;
+    }
+    .ranking001-area--in>table tr:nth-child(2) td:nth-child(2)::after,
+    .ranking001-area--in>table tr:nth-child(3) td:nth-child(2)::after,
+    .ranking001-area--in>table tr:nth-child(4) td:nth-child(2)::after,
+    .ranking001-area--in>table tr:nth-child(5) td:nth-child(2)::after {
+        right: 27px;
+    }
+}
