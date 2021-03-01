@@ -137,17 +137,14 @@ How area
 }
 
 .how-area__contena001--in>p>span {
-    background-image: -webkit-linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
-    background-image: -moz-linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
-    background-image: -ms-linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
-    background-image: -o-linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
-    background-image: linear-gradient(left, transparent -17%, rgb(255, 255, 102) 50%);
+    background-image: -webkit-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
+    background-image: -moz-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
+    background-image: -ms-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
+    background-image: -o-linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
+    background-image: linear-gradient(left, #fff037a8 -17%, rgb(255 227 27) 80%);
     background-repeat: repeat-x;
-    background-size: 200% .8em;
-    background-position: 0 1em;
-    transition: all 3s ease;
-    font-weight: bold;
-    color: #fd1717;
+    background-size: 200% .4em;
+    background-position: 0 .9em;
 }
 
 .how-area__contena001--in>p>small {
@@ -682,6 +679,9 @@ Responsive.ver2021
     .ranking-title__001>a {
         font-size: 24px;
         line-height: 2;
+        color: black;
+        text-shadow: none;
+        text-decoration: underline solid 5px yellow;
     }
     .ranking-title__001>a::after {
         left: 15px;
@@ -713,7 +713,7 @@ Responsive.ver2021
         font-weight: bold;
         letter-spacing: -2px;
         font-size: 16px;
-        text-shadow: 2px 1px 3px #1e1b38;
+        text-shadow: 2px 1px 1px #1e1b38;
     }
     .ranking001-area--in>table td:nth-child(1) {
         letter-spacing: 3px;
