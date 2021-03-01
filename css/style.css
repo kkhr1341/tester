@@ -586,12 +586,61 @@ Responsive.ver2021
 
 /* ipad pro */
 
-@media screen and (min-width:1023px) and (max-width:1223px) {}
+@media screen and (min-width:1023px) and (max-width:1223px) {
+    .hero-title002 span:nth-child(1) {
+        font-size: 89px;
+    }
+    .hero-title002>h1 {
+        font-size: 60px;
+    }
+    .how-area__contena001--in>p {
+        font-size: 31px;
+    }
+    .ranking001-area--in .sub-contena {
+        font-size: 21px;
+    }
+    .ranking001-area--in ul {
+        left: 50px;
+        font-size: 25px;
+        width: 500px;
+    }
+}
 
 
 /* ipad */
 
-@media screen and (min-width:768px) and (max-width:1023px) {}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .hero-title001>h1 {
+        font-size: 65px;
+        line-height: 3;
+    }
+    .hero-title002 span:nth-child(1) {
+        color: rgb(251 236 71);
+        font-size: 77px;
+    }
+    .hero-title002 span:nth-child(2) {
+        font-size: 50px;
+    }
+    .ranking001-area--in>table td {
+        padding: 10px 0 0 30px;
+        letter-spacing: 5px;
+        font-size: 24px;
+    }
+    .ranking001-area--in>table tr:nth-child(2) td:nth-child(2)::after,
+    .ranking001-area--in>table tr:nth-child(3) td:nth-child(2)::after,
+    .ranking001-area--in>table tr:nth-child(4) td:nth-child(2)::after,
+    .ranking001-area--in>table tr:nth-child(5) td:nth-child(2)::after {
+        right: 115px;
+    }
+    .ranking001-area--in .sub-contena {
+        font-size: 21px;
+    }
+    .ranking001-area--in ul {
+        left: 50px;
+        font-size: 25px;
+        width: 500px;
+    }
+}
 
 
 /* スマホ */
